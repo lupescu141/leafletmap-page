@@ -1,13 +1,6 @@
-import { fetchData, fetchDailyMenu } from "./utils.js";
+import { fetchData } from "./utils.js";
 import { baseUrl, map } from "./variables.js";
-import { map_set_markers, restaurant_daily } from "./components.js";
-
-//Resets modal data when exiting
-window.exitModal = () => {
-  dialog.close();
-  restaurantInfo.textContent = "";
-  menu.textContent = "";
-};
+import { map_set_markers } from "./components.js";
 
 const main = async () => {
   try {
