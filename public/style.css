@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.color-palete {
+  color: #344860;
+  color: #eb705e;
+  color: #34cd63;
+  color: #ecf0f1;
+}
+
+@font-face {
+  font-family: restaurant;
+  src: url(restaurants.ttf);
+}
+
+/* Map settings */
+
+#map {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#map p {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+#map .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#map button {
+  margin-top: 1em;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background-color: #6fff9b;
+  border-radius: 0.2em;
+  border-color: #34cd63;
+}
+
+#map button:hover {
+  cursor: pointer;
+}
+
+#map .leaflet-popup-close-button {
+  text-align: center;
+  font: 21px/18px Tahoma, Verdana, sans-serif;
+  color: #242424;
+  background-color: #eb705e;
+  border-end-end-radius: 0.6em;
+  rotate: 270deg;
+  padding: 0.1em;
+}
+
+#map .leaflet-popup-close-button:hover {
+  color: #d3d3d3;
+}
+
+/* top-nav */
+header {
+  width: 100%;
+  background-color: #344860;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  overflow: hidden;
+}
+
+header a {
+  font-family: restaurant;
+  color: #ecf0f1;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
+/* bottom-bar */
+
+footer {
+  width: 100%;
+  background-color: #344860;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  overflow: hidden;
+  z-index: 2;
+}
+
+footer p {
+  color: #ecf0f1;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
