@@ -44,10 +44,13 @@ const map_set_markers = (restaurants, map) => {
       courses.forEach((element) => {
         const tr = document.createElement("tr");
         const th1 = document.createElement("th");
+        th1.className = "th1";
         th1.appendChild(document.createTextNode(`${element.name}`));
         const th2 = document.createElement("th");
+        th2.className = "th2";
         th2.appendChild(document.createTextNode(`${element.price}`));
         const th3 = document.createElement("th");
+        th3.className = "th3";
         th3.appendChild(document.createTextNode(`${element.diets}`));
         tr.appendChild(th1);
         tr.appendChild(th2);
@@ -84,10 +87,13 @@ const map_set_markers = (restaurants, map) => {
         courses.forEach((element) => {
           const tr = document.createElement("tr");
           const th1 = document.createElement("th");
+          th1.className = "th1";
           th1.appendChild(document.createTextNode(`${element.name}`));
           const th2 = document.createElement("th");
+          th2.className = "th2";
           th2.appendChild(document.createTextNode(`${element.price}`));
           const th3 = document.createElement("th");
+          th3.className = "th3";
           th3.appendChild(document.createTextNode(`${element.diets}`));
           tr.appendChild(th1);
           tr.appendChild(th2);

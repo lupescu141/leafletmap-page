@@ -70,6 +70,64 @@ body {
   color: #d3d3d3;
 }
 
+/* map popup */
+#menu_table {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu_table h2 {
+  align-self: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#menu_table tr {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 50em;
+  border-bottom: #344860;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu_table button {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  align-self: center;
+  width: 80%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1em;
+  border-radius: 0.2em;
+  background-color: #f27865;
+  border-color: #c54d3a;
+}
+#menu_table button:hover {
+  cursor: pointer;
+}
+
+#menu_table th {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+
+.th1 {
+  width: 50%;
+  text-align: left;
+}
+
+.th2 {
+  width: 20%;
+}
+
+.th3 {
+  width: 20%;
+}
+
 /* top-nav */
 header {
   width: 100%;
